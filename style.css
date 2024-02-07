@@ -1,0 +1,81 @@
+@font-face {
+  src: url('fonts/League_Spartan/static/LeagueSpartan-Regular.ttf');
+  font-family: LeagueSpartan;
+}
+
+@font-face {
+  src: url('fonts/League_Spartan/static/LeagueSpartan-ExtraBold.ttf');
+  font-family: LeagueSpartanBold;
+}
+
+@font-face {
+  src: url('fonts/League_Spartan/static/LeagueSpartan-ExtraLight.ttf');
+  font-family: LeagueSpartanXLight;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+}
+
+canvas {
+  display: block;
+}
+
+h1 {
+  font-family: LeagueSpartan;
+  font-size: 4.8vw;
+  display: block;
+  color: rgb(255, 255, 255);
+  line-height: 0px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+h2 {
+  font-family: LeagueSpartanXLight;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  font-size: 3.0vw;
+  line-height: 28px;
+  white-space: nowrap;
+  text-indent: 1.8vw;
+}
+
+.Works {
+  background-color: rgb(255, 255, 255);
+  height: 200%;
+  width: 100%;
+  position: absolute;
+  display: flex; /* Flexbox verwenden */
+  flex-direction: column; /* Vertikale Anordnung */
+}
+
+h3 {
+  font-family: LeagueSpartanBold;
+  font-size: 3.2vw;
+  display: block;
+  color: rgb(0, 0, 0);
+  line-height: 0px;
+  text-align: left;
+  white-space: nowrap;
+  text-indent: 1.8vw;
+}
+
+
+.video{
+  position: absolute; /* positions out of the flow, but according to the nearest parent */
+  right: 0; /* confuse it i guess */
+  left: 0;
+  margin:auto;
+  min-width: 300px;
+  aspect-ratio: 16/9;
+}
+
+.videoDiv {
+  position: relative;
+  top: 0;
+  margin-bottom:35vw; /* Abstand zwischen den Videos */
+}

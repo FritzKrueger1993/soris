@@ -1,0 +1,22 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+}
+
+
+html, body, #page {
+  height:100%;
+  width:100%;
+  margin:0;
+  padding:0;
+}
+
+.div1 {
+  border: 5px outset red;
+  background-color: lightblue;
+}
