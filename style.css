@@ -32,13 +32,14 @@ canvas {
 
 h1 {
   font-family: LeagueSpartan;
-  font-size: 5.05vw;
+  font-size:4.8vw;
   display: block;
   color: rgb(255, 255, 255);
   line-height: 0px;
-  text-align: center;
+  text-align: left;
   white-space: nowrap;
-  letter-spacing: 0.1px;
+  letter-spacing: 0px;
+  text-decoration: none;
 }
 
 h2 {
